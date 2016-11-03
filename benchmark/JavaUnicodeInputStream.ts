@@ -6,11 +6,11 @@
 
 // ConvertTo-TS run at 2016-10-04T11:27:01.9391717-07:00
 
-import { CharStream } from 'antlr4ts/target/CharStream';
-import { IntegerList } from 'antlr4ts/target/misc/IntegerList';
-import { Interval } from 'antlr4ts/target/misc/Interval';
-import { NotNull } from 'antlr4ts/target/Decorators';
-import { Override } from 'antlr4ts/target/Decorators';
+import { CharStream } from '../src/CharStream';
+import { IntegerList } from '../src/misc/IntegerList';
+import { Interval } from '../src/misc/Interval';
+import { NotNull } from '../src/Decorators';
+import { Override } from '../src/Decorators';
 
 import * as assert from 'assert';
 

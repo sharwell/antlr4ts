@@ -21,6 +21,7 @@
     ]
   },
   "include": [
+    "benchmark/**/*.ts",
     "src/**/*.ts",
     "tst/**/*.ts"
   ]
