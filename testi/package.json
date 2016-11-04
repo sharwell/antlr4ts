@@ -1,0 +1,25 @@
+{
+  "name": "testi",
+  "version": "0.1.1-SNAPSHOT",
+  "description": "Root project for ANTLR 4 runtime for Typescript",
+  "private": true,
+  "scripts": {
+    "prepublish": "antlr4ts MyGrammar.g4 && npm run tsc",
+    "tsc": "tsc",
+    "test": "npm install && node ./index.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.32",
+    "@types/node": "^6.0.41",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.0",
+    "mocha-typescript": "^1.0.10",
+    "source-map-support": "^0.4.3",
+    "typedoc": "^0.5.1",
+    "typescript": "^2.0.3",
+    "antlr4ts-cli": "../tool/"
+  },
+  "dependencies": {
+    "antlr4ts": "../target/src/"
+  }
+}
